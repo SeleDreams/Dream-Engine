@@ -1,4 +1,6 @@
 bin/
 obj/
+cmake/
+CMakeFiles/
 *.layout
 *.depend

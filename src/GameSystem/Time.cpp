@@ -1,5 +1,6 @@
 #include "GameSystem/Time.hpp"
 #include <iostream>
+
 using namespace std;
 using namespace DreamEngine::GameSystem;
 double Time::delta = 0.0F;
