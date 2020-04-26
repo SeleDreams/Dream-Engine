@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DreamEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DreamEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="C:/Users/lamci/scoop/apps/msys2/current/mingw64/include" />
+				</Compiler>
+				<Linker>
+					<Add library="SDL2" />
+					<Add library="SDL2main" />
+					<Add library="SDL2_mixer" />
+					<Add library="SDL2_ttf" />
+					<Add library="SDL2_image" />
+					<Add library="physfs" />
+					<Add directory="D:/OneDrive/Documents/DreamEngine/" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DreamEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Audio/Music.hpp" />
+		<Unit filename="include/Audio/MusicManager.hpp" />
+		<Unit filename="include/Components/AnimationComponent.hpp" />
+		<Unit filename="include/Components/Camera.hpp" />
+		<Unit filename="include/Components/DisplayComponent.hpp" />
+		<Unit filename="include/Components/GameComponent.hpp" />
+		<Unit filename="include/Components/GraphicComponent.hpp" />
+		<Unit filename="include/Components/ImageComponent.hpp" />
+		<Unit filename="include/Components/PhysicObject.hpp" />
+		<Unit filename="include/Components/TextComponent.hpp" />
+		<Unit filename="include/Components/UIComponent.hpp" />
+		<Unit filename="include/GameSystem/FileSystem.hpp" />
+		<Unit filename="include/GameSystem/Game.hpp" />
+		<Unit filename="include/GameSystem/GameEntity.hpp" />
+		<Unit filename="include/GameSystem/Input.hpp" />
+		<Unit filename="include/GameSystem/MathHelper.hpp" />
+		<Unit filename="include/GameSystem/Object.hpp" />
+		<Unit filename="include/GameSystem/Physics.hpp" />
+		<Unit filename="include/GameSystem/Position.hpp" />
+		<Unit filename="include/GameSystem/Rotation.hpp" />
+		<Unit filename="include/GameSystem/Scale.hpp" />
+		<Unit filename="include/GameSystem/Scene.hpp" />
+		<Unit filename="include/GameSystem/SceneManager.hpp" />
+		<Unit filename="include/GameSystem/Time.hpp" />
+		<Unit filename="include/GameSystem/Transform.hpp" />
+		<Unit filename="include/GlobalHeader.hpp" />
+		<Unit filename="include/Graphics/Animation.hpp" />
+		<Unit filename="include/Graphics/DisplayObject.hpp" />
+		<Unit filename="include/Graphics/Image.hpp" />
+		<Unit filename="include/Misc/Boundary.hpp" />
+		<Unit filename="include/Misc/Color.hpp" />
+		<Unit filename="include/Misc/Debug.hpp" />
+		<Unit filename="include/Misc/Exceptions.hpp" />
+		<Unit filename="include/TourneScript.hpp" />
+		<Unit filename="src/Audio/Music.cpp" />
+		<Unit filename="src/Components/AnimationComponent.cpp" />
+		<Unit filename="src/Components/Camera.cpp" />
+		<Unit filename="src/Components/DisplayComponent.cpp" />
+		<Unit filename="src/Components/GameComponent.cpp" />
+		<Unit filename="src/Components/ImageComponent.cpp" />
+		<Unit filename="src/Components/PhysicsObject.cpp" />
+		<Unit filename="src/Components/TextComponent.cpp" />
+		<Unit filename="src/Components/UIComponent.cpp" />
+		<Unit filename="src/GameSystem/FileSystem.cpp" />
+		<Unit filename="src/GameSystem/Game.cpp" />
+		<Unit filename="src/GameSystem/GameEntity.cpp" />
+		<Unit filename="src/GameSystem/Input.cpp" />
+		<Unit filename="src/GameSystem/MathHelper.cpp" />
+		<Unit filename="src/GameSystem/MusicManager.cpp" />
+		<Unit filename="src/GameSystem/Object.cpp" />
+		<Unit filename="src/GameSystem/Physics.cpp" />
+		<Unit filename="src/GameSystem/Position.cpp" />
+		<Unit filename="src/GameSystem/Scene.cpp" />
+		<Unit filename="src/GameSystem/SceneManager.cpp" />
+		<Unit filename="src/GameSystem/Time.cpp" />
+		<Unit filename="src/GameSystem/Transform.cpp" />
+		<Unit filename="src/Graphics/Animation.cpp" />
+		<Unit filename="src/Graphics/DisplayObject.cpp" />
+		<Unit filename="src/Graphics/Image.cpp" />
+		<Unit filename="src/Misc/Color.cpp" />
+		<Unit filename="src/Misc/Debug.cpp" />
+		<Unit filename="src/TourneScript.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
